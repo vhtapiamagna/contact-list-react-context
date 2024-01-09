@@ -1,0 +1,203 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(10, 10, 10, 0.87);
+  background-color: #fffbfb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+  background-color: rgb(111, 60, 156);
+  text-align: center;
+  box-shadow: 15px 15px 20px 0px rgba(136, 3, 136, 0.5);
+}
+
+ul{
+  font-family: Arial;
+  font-size: large;
+}
+
+
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(98, 96, 100);
+  text-align: center;
+  width: auto;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(98, 96, 100);
+  text-align: center;
+  width: auto;
+}
+
+input{
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  background-color: #fffbfb;
+}
+
+p{
+  color: rgb(9, 9, 9);
+  font-size: 15px;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.datos{
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(98, 96, 100);
+  width: 700px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-button {
+  background-color: rgb(227, 20, 20);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.edit-button{
+  background-color: rgb(234, 246, 7);
+  color: rgb(4, 4, 4);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(98, 96, 100);
+  text-align: left;
+  width: auto;
+}
+
+.btn{
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: #2f0aeb;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.edit{
+  background-color: rgb(163, 128, 244);
+}
+
+.edit-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.edit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(98, 96, 100);
+  text-align: center;
+  width: 400px;
+}
+
+.edit button{
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #5dc65d;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-contac{
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #5dc65d;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-cancel{
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #fa7272;
+  cursor: pointer;
+  text-decoration: none;
+}
+
